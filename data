@@ -1,0 +1,2236 @@
+local v1 = {}
+local v2 = {
+    ["DisplayName"] = "Test_1",
+    ["Multiplier"] = 11,
+    ["Rarity"] = 10,
+    ["Tradeable"] = false,
+    ["Icon"] = 85877263502081,
+    ["Event"] = {
+        ["Name"] = "No event at all",
+        ["Color"] = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 69, 51)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(247, 255, 234)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 69, 51)) })
+    },
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Test_Sword_Music"
+    }
+}
+v1.Test_1 = v2
+v1.Starter = {
+    ["DisplayName"] = "Starter Sword",
+    ["Multiplier"] = 1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = false,
+    ["Icon"] = 113190395661038
+}
+v1.Blue_Twig = {
+    ["DisplayName"] = "Tester Twig",
+    ["Multiplier"] = 10,
+    ["Rarity"] = 19,
+    ["Tradeable"] = false,
+    ["Icon"] = 126598654531997
+}
+v1.RGB_Karambit = {
+    ["DisplayName"] = "RGB Karambit",
+    ["Multiplier"] = 252,
+    ["Rarity"] = 19,
+    ["Tradeable"] = false,
+    ["Icon"] = 110832115001009
+}
+v1.Lucky_Blocks_1 = {
+    ["DisplayName"] = "Fortuna Rubra",
+    ["Multiplier"] = 574.3,
+    ["Rarity"] = 18,
+    ["Tradeable"] = true,
+    ["Icon"] = 83535324475989
+}
+v1.Lucky_Blocks_2 = {
+    ["DisplayName"] = "Fortuna Herbo",
+    ["Multiplier"] = 612.4,
+    ["Rarity"] = 18,
+    ["Tradeable"] = true,
+    ["Icon"] = 127266765717580
+}
+v1.Lucky_Blocks_3 = {
+    ["DisplayName"] = "Fortuna Livens",
+    ["Multiplier"] = 594.1,
+    ["Rarity"] = 18,
+    ["Tradeable"] = true,
+    ["Icon"] = 106009674714931
+}
+v1.Lucky_Blocks_4 = {
+    ["DisplayName"] = "Fortuna Flavens",
+    ["Multiplier"] = 586.8,
+    ["Rarity"] = 18,
+    ["Tradeable"] = true,
+    ["Icon"] = 107600759914592
+}
+v1.Lucky_Blocks_5 = {
+    ["DisplayName"] = "Lucky Troller",
+    ["Multiplier"] = 2642,
+    ["Rarity"] = 18,
+    ["Tradeable"] = true,
+    ["Icon"] = 117051307389226
+}
+v1.Camo_Scythe = {
+    ["DisplayName"] = "Camo Scythe",
+    ["Multiplier"] = 328.4,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 91265353159109
+}
+v1.Sun_Moon = {
+    ["DisplayName"] = "Sun \'n\' Moon",
+    ["Multiplier"] = 123.2,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 114410122159398
+}
+v1.Cracked_Hatch = {
+    ["DisplayName"] = "Cracked Hatch",
+    ["Multiplier"] = 154.3,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 135508446986017
+}
+v1.Pink_Essence = {
+    ["DisplayName"] = "Pink Essence",
+    ["Multiplier"] = 275.9,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 112016770723976
+}
+v1.Purple_Essence = {
+    ["DisplayName"] = "Purple Essence",
+    ["Multiplier"] = 275.9,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 122581688085057
+}
+v1.Kami_Katana = {
+    ["DisplayName"] = "Pumpkin Eyes",
+    ["Multiplier"] = 923,
+    ["Rarity"] = 11,
+    ["Tradeable"] = false,
+    ["Icon"] = 134400382216833
+}
+local v3 = {
+    ["DisplayName"] = "Speciial\'s Pain",
+    ["Event"] = {
+        ["Name"] = "Painnnnnnnn",
+        ["Color"] = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(239, 92, 208)), ColorSequenceKeypoint.new(1, Color3.fromRGB(141, 32, 239)) })
+    },
+    ["Multiplier"] = 4404,
+    ["Rarity"] = 11,
+    ["Tradeable"] = true,
+    ["Icon"] = 126940321779851
+}
+v1.Speciial_Pain = v3
+v1.Old_Unc_Spine = {
+    ["DisplayName"] = "Old Unc Spine",
+    ["Multiplier"] = 1600,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 82749947961773
+}
+local v4 = {
+    ["DisplayName"] = "BAKAWWWK",
+    ["Multiplier"] = 3256,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 101510629681721,
+    ["Outline"] = Color3.fromRGB(245, 221, 0),
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Chicken_Unsheath",
+        ["Lunge"] = "Chicken_Lunge",
+        ["Slash"] = "Chicken_Slash"
+    }
+}
+v1.Chicken_Hat = v4
+v1.Sugar_Rush = {
+    ["DisplayName"] = "Sugar Rush",
+    ["Multiplier"] = 456,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 74047654426265,
+    ["Outline"] = Color3.fromRGB(0, 0, 0)
+}
+v1.Shark_Shark = {
+    ["DisplayName"] = "Shark Shark",
+    ["Multiplier"] = 634,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 103140929721143
+}
+v1.Evil_Duckie = {
+    ["DisplayName"] = "Evil Duckie",
+    ["Multiplier"] = 398,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 105909214233309
+}
+v1.Toxic_Remnant = {
+    ["DisplayName"] = "Toxic Remnant",
+    ["Multiplier"] = 1456,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 18906478948
+}
+v1.Looking_Up = {
+    ["DisplayName"] = "Looking Up!",
+    ["Multiplier"] = 85.3,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 15823509330
+}
+v1.Christmas = {
+    ["LegacyName"] = "Christmas Exclusive",
+    ["DisplayName"] = "Christmas 2023",
+    ["Multiplier"] = 243.2,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 15728588713,
+    ["Outline"] = Color3.fromRGB(0, 0, 0)
+}
+v1.Cold_Fire = {
+    ["DisplayName"] = "Cold Fire",
+    ["Multiplier"] = 626.4,
+    ["Rarity"] = 17,
+    ["Tradeable"] = true,
+    ["Icon"] = 121376059294696
+}
+v1.Colorful_Explosion = {
+    ["DisplayName"] = "Colorful Explosion",
+    ["Multiplier"] = 350.4,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 15598212194
+}
+v1.Deus_Constructionis = {
+    ["DisplayName"] = "Deus Constructionis",
+    ["Multiplier"] = 259.5,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 15547689078
+}
+v1.Celestial_Fang = {
+    ["DisplayName"] = "Celestial Fang",
+    ["Multiplier"] = 1259,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 87771565813938
+}
+v1.Divergence = {
+    ["DisplayName"] = "Divergence",
+    ["Multiplier"] = 484.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 16494086753
+}
+v1.Frosty = {
+    ["DisplayName"] = "Frosty",
+    ["Multiplier"] = 776,
+    ["Rarity"] = 17,
+    ["Tradeable"] = true,
+    ["Icon"] = 15728276866
+}
+v1.Nooooooob = {
+    ["DisplayName"] = "Nooooooob",
+    ["Multiplier"] = 2004,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 78755164912584
+}
+v1.Happy_2024 = {
+    ["DisplayName"] = "Happy 2024",
+    ["Multiplier"] = 47.3,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 15822487207
+}
+v1.Iceblade = {
+    ["DisplayName"] = "Iceblade",
+    ["Multiplier"] = 317.4,
+    ["Rarity"] = 17,
+    ["Tradeable"] = true,
+    ["Icon"] = 15728926095
+}
+v1.Inferis = {
+    ["DisplayName"] = "Inferis",
+    ["Multiplier"] = 232.2,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 15763393876
+}
+v1.Karambit = {
+    ["DisplayName"] = "Karambit",
+    ["Multiplier"] = 333.3,
+    ["Rarity"] = 11,
+    ["Tradeable"] = false,
+    ["Icon"] = 14837127958
+}
+v1.Nitrogen = {
+    ["DisplayName"] = "Nitrogen",
+    ["Multiplier"] = 432.2,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 18907525645
+}
+v1.Skydweller = {
+    ["DisplayName"] = "Skydweller",
+    ["Multiplier"] = 193.4,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 16279739618
+}
+v1.Uselessness = {
+    ["LegacyName"] = "Sword of Uselesness",
+    ["DisplayName"] = "Sword of Uselessness",
+    ["Multiplier"] = 169.5,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 16571119823
+}
+v1.Dev_Karambit = {
+    ["DisplayName"] = "Developer Karambit",
+    ["Multiplier"] = 1969,
+    ["Rarity"] = 11,
+    ["Tradeable"] = false,
+    ["Icon"] = 92845497182244
+}
+local v5 = {
+    ["DisplayName"] = "Frozen Fish",
+    ["Multiplier"] = 41.7,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 125244612450909,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Frozen_Fish = v5
+local v6 = {
+    ["DisplayName"] = "Big Fish",
+    ["Multiplier"] = 6.1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 109316988621581,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Big_Fish = v6
+local v7 = {
+    ["DisplayName"] = "Overcooked Fish",
+    ["Multiplier"] = 0.5,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 100048163425691,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Overcooked_Fish = v7
+local v8 = {
+    ["DisplayName"] = "Golden Fish",
+    ["Multiplier"] = 303.3,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 116812962466449,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Golden_Fish = v8
+local v9 = {
+    ["DisplayName"] = "Diamond Fish",
+    ["Multiplier"] = 504.4,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 79132690714395,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Diamond_Fish = v9
+local v10 = {
+    ["DisplayName"] = "Pink Fish",
+    ["Multiplier"] = 696.9,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 70644538481202,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Pink_Fish = v10
+local v11 = {
+    ["DisplayName"] = "Purple Fish",
+    ["Multiplier"] = 696.9,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 70796776161798,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Purple_Fish = v11
+local v12 = {
+    ["DisplayName"] = "Emerald Fish",
+    ["Multiplier"] = 2019,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 102634826838372,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Emerald_Fish = v12
+local v13 = {
+    ["DisplayName"] = "Silver Fish",
+    ["Multiplier"] = 101.1,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 124499363858322,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Silver_Fish = v13
+local v14 = {
+    ["DisplayName"] = "Rainbow Fish",
+    ["Multiplier"] = 654,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 115646730411913,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Fish_Unsheath",
+        ["Lunge"] = "Fish_Lunge",
+        ["Slash"] = "Fish_Slash"
+    }
+}
+v1.Rainbow_Fish = v14
+local v15 = {
+    ["DisplayName"] = "Yellow Star",
+    ["Multiplier"] = 65.3,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 107040397414885,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Yellow_Star = v15
+local v16 = {
+    ["DisplayName"] = "Lime Star",
+    ["Multiplier"] = 232.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 91628069834116,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Lime_Star = v16
+local v17 = {
+    ["DisplayName"] = "Arctic Star",
+    ["Multiplier"] = 135.3,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 77049554574915,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Arctic_Star = v17
+local v18 = {
+    ["DisplayName"] = "Angelic Star",
+    ["Multiplier"] = 1164,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 130799074999258,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Angelic_Star = v18
+local v19 = {
+    ["DisplayName"] = "White Star",
+    ["Multiplier"] = 50,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 98664165742779,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.White_Star = v19
+local v20 = {
+    ["DisplayName"] = "Oceanic Star",
+    ["Multiplier"] = 360.5,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 135930687521886,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Oceanic_Star = v20
+local v21 = {
+    ["DisplayName"] = "Ghost Star",
+    ["Multiplier"] = 190,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 119553456723837,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Ghost_Star = v21
+local v22 = {
+    ["DisplayName"] = "Burning Star",
+    ["Multiplier"] = 777,
+    ["Rarity"] = 8,
+    ["Tradeable"] = false,
+    ["Icon"] = 80622547164370,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Burning_Star = v22
+local v23 = {
+    ["DisplayName"] = "Black Star",
+    ["Multiplier"] = 1000,
+    ["Rarity"] = 9,
+    ["Tradeable"] = false,
+    ["Icon"] = 129143289250936,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Black_Star = v23
+v1.Alien = {
+    ["DisplayName"] = "Alien",
+    ["Multiplier"] = 3.6,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 100035722945189,
+    ["Outline"] = Color3.fromRGB(28, 255, 0)
+}
+v1.Bombastic = {
+    ["DisplayName"] = "Bombastic",
+    ["Multiplier"] = 5.2,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 82864965063071
+}
+v1.Excalibur = {
+    ["DisplayName"] = "Excalibur",
+    ["Multiplier"] = 6.5,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 97055983626890
+}
+v1.Marshmallow = {
+    ["DisplayName"] = "Marshmallow",
+    ["Multiplier"] = 2.3,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 122044499652039
+}
+v1.Plastic = {
+    ["DisplayName"] = "Plastic Sword",
+    ["Multiplier"] = 1.3,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 85278534752516
+}
+v1.Bloody_Sword = {
+    ["DisplayName"] = "Bloody Sword",
+    ["Multiplier"] = 1.7,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 133472153159709
+}
+v1.Claustrophobia = {
+    ["DisplayName"] = "Claustrophobia",
+    ["Multiplier"] = 5.2,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 99019671080644
+}
+v1.Demon_Axe = {
+    ["DisplayName"] = "Demon Axe",
+    ["Multiplier"] = 10.2,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 78948311212208
+}
+v1.Imaginary = {
+    ["DisplayName"] = "Imaginary Sword",
+    ["Multiplier"] = 3.3,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 134210880721016
+}
+v1.Dark_Mastery = {
+    ["DisplayName"] = "Dark Mastery",
+    ["Multiplier"] = 17.4,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 136247200148893
+}
+v1.Death_Speaker = {
+    ["DisplayName"] = "Death Speaker",
+    ["Multiplier"] = 73,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 112488492520943
+}
+v1.Ghost_Machette = {
+    ["DisplayName"] = "Ghost Machette",
+    ["Multiplier"] = 6.5,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 130134235827195
+}
+v1.Limitless = {
+    ["DisplayName"] = "Limitless",
+    ["Multiplier"] = 140.3,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 95834935420921
+}
+v1.The_Twig = {
+    ["DisplayName"] = "The Twig",
+    ["Multiplier"] = 2.3,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 82566041622269
+}
+v1.Dark_Light = {
+    ["DisplayName"] = "Dark Light",
+    ["Multiplier"] = 42.3,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 133036903519610
+}
+v1.Emerald_Blade = {
+    ["DisplayName"] = "Emerald Blade",
+    ["Multiplier"] = 160.4,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 93650029016428
+}
+v1.Erythrophobia = {
+    ["DisplayName"] = "Erythrophobia",
+    ["Multiplier"] = 6.5,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 138645831334808
+}
+v1.Heat = {
+    ["DisplayName"] = "Heat",
+    ["Multiplier"] = 2.3,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 139389313159983
+}
+v1.Pink_Ice = {
+    ["DisplayName"] = "Pink Ice",
+    ["Multiplier"] = 13.4,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 92970575565284
+}
+v1.RGB_Balloon = {
+    ["DisplayName"] = "RGB Balloon",
+    ["Multiplier"] = 3.1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 79441245858733
+}
+v1.RGB_Bat = {
+    ["DisplayName"] = "RGB Bat",
+    ["Multiplier"] = 5.7,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 120323296170508
+}
+v1.RGB_Blade = {
+    ["DisplayName"] = "RGB Blade",
+    ["Multiplier"] = 9.2,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 111595378066856
+}
+v1.RGB_M4 = {
+    ["DisplayName"] = "RGB M4",
+    ["Multiplier"] = 25.5,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 110679908488581
+}
+v1.RGB_Shark = {
+    ["DisplayName"] = "RGB Shark",
+    ["Multiplier"] = 14.5,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 85057355349855
+}
+v1.Rock = {
+    ["DisplayName"] = "Rock",
+    ["Multiplier"] = 3.1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 101710303631537
+}
+v1.Billy = {
+    ["DisplayName"] = "Billy",
+    ["Multiplier"] = 35.3,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 128743357070353
+}
+v1.Chris = {
+    ["DisplayName"] = "Chris",
+    ["Multiplier"] = 42.5,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 87913585578647
+}
+v1.King_Bob = {
+    ["DisplayName"] = "King Bob",
+    ["Multiplier"] = 77.5,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 71655924550413
+}
+v1.Test_Space_Lord = {
+    ["DisplayName"] = "Test Space Lord",
+    ["Multiplier"] = 0.1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = false,
+    ["Icon"] = 73017039896131
+}
+v1.Purple_Space_Lord = {
+    ["DisplayName"] = "Purple Space Lord",
+    ["Multiplier"] = 16.3,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 118810712723912
+}
+v1.Blue_Space_Lord = {
+    ["DisplayName"] = "Blue Space Lord",
+    ["Multiplier"] = 8.6,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 83419755739134
+}
+v1.Oceanic_Space_Lord = {
+    ["DisplayName"] = "Oceanic Space Lord",
+    ["Multiplier"] = 183.3,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 104830037818081
+}
+v1.Green_Space_Lord = {
+    ["DisplayName"] = "Green Space Lord",
+    ["Multiplier"] = 87.4,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 125774399272019
+}
+v1.Red_Space_Lord = {
+    ["DisplayName"] = "Red Space Lord",
+    ["Multiplier"] = 59.3,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 104421877787076
+}
+v1.Black_Fire = {
+    ["DisplayName"] = "Black Fire",
+    ["Multiplier"] = 2.1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 126575829702100
+}
+v1.Dark_Glitch = {
+    ["DisplayName"] = "Dark Glitch",
+    ["Multiplier"] = 3.9,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 108270220976976
+}
+v1.Infinity_Void = {
+    ["DisplayName"] = "Infinity Void",
+    ["Multiplier"] = 9.6,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 15590358219
+}
+v1.Pure_Darkness = {
+    ["DisplayName"] = "Pure Darkness",
+    ["Multiplier"] = 12.9,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 136773373626266
+}
+v1.Tenebris = {
+    ["DisplayName"] = "Tenebris",
+    ["Multiplier"] = 19.4,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 15590435792
+}
+v1.Rainbow_Void = {
+    ["DisplayName"] = "Rainbow Void",
+    ["Multiplier"] = 6.3,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 106356114463220
+}
+v1.The_Hitbox = {
+    ["DisplayName"] = "The Hitbox",
+    ["Multiplier"] = 7.6,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 83914238085523
+}
+v1.Pink_Hitbox = {
+    ["DisplayName"] = "Pink Hitbox",
+    ["Multiplier"] = 4,
+    5,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 125966328020232
+}
+v1.Colored_Darkness = {
+    ["DisplayName"] = "Colored Darkness",
+    ["Multiplier"] = 92.4,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 106280396131905
+}
+v1.Electric_Pink = {
+    ["DisplayName"] = "Electric Pink",
+    ["Multiplier"] = 19.4,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 93199684528736
+}
+v1.Infernal = {
+    ["DisplayName"] = "Infernal",
+    ["Multiplier"] = 654.4,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 80575365721188,
+    ["Outline"] = Color3.fromRGB(255, 154, 0)
+}
+v1.Underworld = {
+    ["DisplayName"] = "Underworld",
+    ["Multiplier"] = 42.7,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 75976678087380
+}
+v1.Calcis = {
+    ["DisplayName"] = "Monochrome: Calcis",
+    ["Multiplier"] = 124.5,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 75027457078990
+}
+v1.Ablus = {
+    ["DisplayName"] = "Monochrome: Ablus",
+    ["Multiplier"] = 954,
+    6,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 71036860582602
+}
+v1.Caeruleum = {
+    ["LegacyName"] = "Monochrome: Caereleum",
+    ["DisplayName"] = "Monochrome: Caeruleum",
+    ["Multiplier"] = 394,
+    3,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 134621642524650
+}
+v1.Flavum = {
+    ["DisplayName"] = "Monochrome: Flavum",
+    ["Multiplier"] = 47.4,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 104961289342131
+}
+v1.Rubrum = {
+    ["DisplayName"] = "Monochrome: Rubrum",
+    ["Multiplier"] = 46.5,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 91826634526738
+}
+v1.Festive_Delight = {
+    ["DisplayName"] = "Festive Delight",
+    ["Multiplier"] = 105.4,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 73991050166637
+}
+v1.Bon_Fire = {
+    ["DisplayName"] = "Bon Fire",
+    ["Multiplier"] = 630.5,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 108653072578891
+}
+v1.Delectra = {
+    ["DisplayName"] = "Delectra",
+    ["Multiplier"] = 175.4,
+    ["Rarity"] = 16,
+    ["Tradeable"] = true,
+    ["Icon"] = 123488367380419
+}
+v1.Starter_Deluxe = {
+    ["DisplayName"] = "Starter Deluxe",
+    ["Multiplier"] = 132.1,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 74973959407078
+}
+v1.Crystal = {
+    ["DisplayName"] = "Crystal",
+    ["Multiplier"] = 3.6,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 88474211560678
+}
+v1.Crystal_Soul = {
+    ["DisplayName"] = "Crystal Soul",
+    ["Multiplier"] = 17.9,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 138816829997001
+}
+v1.Iris = {
+    ["DisplayName"] = "Iris",
+    ["Multiplier"] = 113.6,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 110574663751382,
+    ["Outline"] = Color3.fromRGB(172, 23, 229)
+}
+v1.Laetus = {
+    ["DisplayName"] = "Laetus",
+    ["Multiplier"] = 46.5,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 125190053728559
+}
+v1.Cactus = {
+    ["DisplayName"] = "Cactus",
+    ["Multiplier"] = 22.1,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 103273353574015
+}
+v1.El_Dorado = {
+    ["DisplayName"] = "El Dorado",
+    ["Multiplier"] = 58.4,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 74898052627867
+}
+v1.Pickaxe = {
+    ["LegacyName"] = "Pick Axe",
+    ["DisplayName"] = "Pickaxe",
+    ["Multiplier"] = 8.2,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 74460438013956
+}
+v1.Sheriffs_Rifle = {
+    ["DisplayName"] = "Sheriff\'s Rifle",
+    ["Multiplier"] = 13.5,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 128260750976191
+}
+v1.Wooden_Plank = {
+    ["DisplayName"] = "Wooden Plank",
+    ["Multiplier"] = 4.3,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 78539675576482
+}
+v1.Cyan_Neo_Blade = {
+    ["DisplayName"] = "Cyan Neo Blade",
+    ["Multiplier"] = 65.2,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 71263594897224
+}
+v1.Lime_Neo_Blade = {
+    ["DisplayName"] = "Lime Neo Blade",
+    ["Multiplier"] = 34.2,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 114361466356883
+}
+v1.Red_Neo_Blade = {
+    ["DisplayName"] = "Red Neo Blade",
+    ["Multiplier"] = 53.2,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 120628183387337
+}
+v1.Purple_Neo_Blade = {
+    ["DisplayName"] = "Purple Neo Blade",
+    ["Multiplier"] = 31.5,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 16100643941
+}
+v1.Rainbow_Neo_Blade = {
+    ["LegacyName"] = "Party\'s Neo Blade",
+    ["DisplayName"] = "Rainbow Neo Blade",
+    ["Multiplier"] = 160.5,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 108187756587643
+}
+v1.Neo_Striker = {
+    ["DisplayName"] = "Neo Striker",
+    ["Multiplier"] = 764.5,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 102745054750037
+}
+v1.VIP_Neo_Striker = {
+    ["DisplayName"] = "VIP Neo Striker",
+    ["Multiplier"] = 347.6,
+    ["Rarity"] = 9,
+    ["Tradeable"] = false,
+    ["Icon"] = 100943751893370
+}
+v1.Nox_Revus = {
+    ["DisplayName"] = "Nox Revus",
+    ["Multiplier"] = 5638,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 123115671860852
+}
+v1.Nox_Frigus = {
+    ["DisplayName"] = "Nox Frigus",
+    ["Multiplier"] = 532.2,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 93721318198775
+}
+v1.Nox_Viridis = {
+    ["DisplayName"] = "Nox Viridis",
+    ["Multiplier"] = 25540,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 120530268327319
+}
+v1.Neo_Smiter = {
+    ["LegacyName"] = "Poke\'s Neo Smiter",
+    ["DisplayName"] = "Neo Smiter",
+    ["Multiplier"] = 444.6,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 76957085097706
+}
+v1.Coldheart = {
+    ["DisplayName"] = "Coldheart",
+    ["Multiplier"] = 254.4,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 110466189904825
+}
+v1.LoveAndPeace = {
+    ["LegacyName"] = "Love and Peace",
+    ["DisplayName"] = "Love & Peace",
+    ["Multiplier"] = 143.2,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 109765742865737
+}
+v1.Green_Cyber_Katana = {
+    ["DisplayName"] = "Green Cyber Katana",
+    ["Multiplier"] = 31.6,
+    ["Rarity"] = 16,
+    ["Tradeable"] = true,
+    ["Icon"] = 94642794863253
+}
+v1.Mech_Scythe = {
+    ["DisplayName"] = "Mech Scythe",
+    ["Multiplier"] = 87.6,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 88568534490930
+}
+v1.Star_Scythe = {
+    ["DisplayName"] = "Star Scythe",
+    ["Multiplier"] = 337.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = false,
+    ["Icon"] = 79519425940085
+}
+v1.Oceanic_Crystals = {
+    ["LegacyName"] = "Oceanic Crystal Blade",
+    ["DisplayName"] = "Oceanic Crystals",
+    ["Multiplier"] = 102.2,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 131454041652406
+}
+v1.Culled = {
+    ["DisplayName"] = "Culled\'s Dark Void",
+    ["Multiplier"] = 490.5,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 98738659313321,
+    ["Outline"] = Color3.fromRGB(49, 70, 237)
+}
+v1.Red_Nebula = {
+    ["LegacyName"] = "Party\'s Red Nebula",
+    ["DisplayName"] = "Red Nebula",
+    ["Multiplier"] = 404.3,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 82541677036321,
+    ["Outline"] = Color3.fromRGB(255, 97, 73)
+}
+v1.Spirit_Axe = {
+    ["DisplayName"] = "Spirit Axe",
+    ["Multiplier"] = 94.5,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 78806295764768
+}
+v1.Frostbite = {
+    ["DisplayName"] = "Frostbite",
+    ["Multiplier"] = 7.2,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 134097289640567
+}
+v1.Icicle = {
+    ["DisplayName"] = "Icicle",
+    ["Multiplier"] = 14.1,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 71385756482957
+}
+v1.Shovel = {
+    ["DisplayName"] = "Shovel",
+    ["Multiplier"] = 24.3,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 118493420403515
+}
+v1.Camp_Sign = {
+    ["DisplayName"] = "Camp Sign",
+    ["Multiplier"] = 17.1,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 115138448934671
+}
+v1.Flashlight = {
+    ["DisplayName"] = "Flashlight",
+    ["Multiplier"] = 353.4,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 88961802386897
+}
+v1.Light_Pole = {
+    ["DisplayName"] = "Light Pole",
+    ["Multiplier"] = 29.1,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 112668570515211
+}
+v1.My_Tent = {
+    ["DisplayName"] = "My tent is in here",
+    ["Multiplier"] = 51.6,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 130995510851073
+}
+v1.Giant_Fork = {
+    ["LegacyName"] = "Random Giant Fork",
+    ["DisplayName"] = "Giant Fork",
+    ["Multiplier"] = 88.1,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 111772954480961
+}
+v1.THE_AXEEEEEE = {
+    ["DisplayName"] = "THE AXEEEEEE",
+    ["Multiplier"] = 179.3,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 84482622247606
+}
+v1.Tree = {
+    ["DisplayName"] = "Tree",
+    ["Multiplier"] = 8.6,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 98218111095316
+}
+v1.Angelicular = {
+    ["DisplayName"] = "Angelicular",
+    ["Multiplier"] = 491.6,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 87383885808657
+}
+v1.Plinx = {
+    ["DisplayName"] = "Plinx",
+    ["Multiplier"] = 23.3,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 117631039658501
+}
+v1.Evil_Intent = {
+    ["DisplayName"] = "Evil Intent",
+    ["Multiplier"] = 143.2,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 109645339824422
+}
+v1.SpeciialEra = {
+    ["LegacyName"] = "Speciial Bling",
+    ["DisplayName"] = "Speciial Wisp",
+    ["Multiplier"] = 22.5,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 94913508012073
+}
+v1.Golden_Wisp = {
+    ["DisplayName"] = "Golden Wisp",
+    ["Multiplier"] = 112.3,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 112573831497632
+}
+v1.Crimson_Wrath = {
+    ["LegacyName"] = "Crimson Wrath",
+    ["DisplayName"] = "Crimson Wisp",
+    ["Multiplier"] = 684.4,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 71505269054328
+}
+v1.Neon_Wisp = {
+    ["DisplayName"] = "Neon Wisp",
+    ["Multiplier"] = 65.4,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 91569836611070
+}
+v1.Igneus_Wisp = {
+    ["DisplayName"] = "Igneus Wisp",
+    ["Multiplier"] = 121.2,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 117277502671983
+}
+v1.Friendly_Wisp = {
+    ["DisplayName"] = "Friendly Wisp",
+    ["Multiplier"] = 31.2,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 131857420475560
+}
+v1.Ignis = {
+    ["DisplayName"] = "Ignis",
+    ["Multiplier"] = 4403,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 72748022042697
+}
+v1.Crystallica = {
+    ["DisplayName"] = "Crystallica",
+    ["Multiplier"] = 1726,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 82086803422205
+}
+v1.Partybreaker = {
+    ["DisplayName"] = "Partybreaker",
+    ["Multiplier"] = 14.5,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 94382703306995
+}
+v1.Dawnbreaker = {
+    ["DisplayName"] = "Dawnbreaker",
+    ["Multiplier"] = 24.5,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 73538986329589
+}
+v1.Natural = {
+    ["DisplayName"] = "Natural",
+    ["Multiplier"] = 12.1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 93095806030682
+}
+v1.Ancient_Blade = {
+    ["LegacyName"] = "Ancient blade",
+    ["DisplayName"] = "Ancient Blade",
+    ["Multiplier"] = 42.7,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 97985469862784
+}
+v1.Delight = {
+    ["DisplayName"] = "Delight",
+    ["Multiplier"] = 32.3,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 115493609150326
+}
+v1.Holy_Katana = {
+    ["DisplayName"] = "Holy Katana",
+    ["Multiplier"] = 237.8,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 97574469711356
+}
+v1.Light_Slicer = {
+    ["DisplayName"] = "Light Slicer",
+    ["Multiplier"] = 63.8,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 83989694182779
+}
+v1.Monkey_Blade = {
+    ["DisplayName"] = "Monkey Blade",
+    ["Multiplier"] = 20.4,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 95619286804474
+}
+v1.Shooting_Star = {
+    ["DisplayName"] = "Shooting Star",
+    ["Multiplier"] = 10.2,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 109023081789239
+}
+v1.Maleficia = {
+    ["DisplayName"] = "Maleficia",
+    ["Multiplier"] = 79.1,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 95878933198694
+}
+v1.Burning_Twist = {
+    ["DisplayName"] = "Burning Twist",
+    ["Multiplier"] = 15.5,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 76152208173634
+}
+v1.Blue_Emperor = {
+    ["DisplayName"] = "Blue Emperor",
+    ["Multiplier"] = 315.5,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 85725613530282
+}
+v1.Immortal_Katana = {
+    ["DisplayName"] = "Immortal Katana",
+    ["Multiplier"] = 350.4,
+    ["Rarity"] = 16,
+    ["Tradeable"] = true,
+    ["Icon"] = 85402470437771
+}
+v1.Fiery_Dots = {
+    ["DisplayName"] = "Fiery Dots",
+    ["Multiplier"] = 10.2,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 138571007667413
+}
+v1.Unguibus = {
+    ["DisplayName"] = "Unguibus",
+    ["Multiplier"] = 134.3,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 82279572357377
+}
+v1.Rock_Staff = {
+    ["DisplayName"] = "Rock Staff",
+    ["Multiplier"] = 14.5,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 110551774189995
+}
+v1.Gentle_Breeze = {
+    ["DisplayName"] = "Gentle Breeze",
+    ["Multiplier"] = 29.5,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 86918782335107
+}
+v1.Sakura_Katana = {
+    ["DisplayName"] = "Sakura Katana",
+    ["Multiplier"] = 97.8,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 124574804804242
+}
+v1.Tsundere = {
+    ["DisplayName"] = "Tsundere",
+    ["Multiplier"] = 953.7,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 133485832213212
+}
+local v24 = {
+    ["DisplayName"] = "Indra Sakura",
+    ["Multiplier"] = 2564,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 101067058178370,
+    ["Outline"] = Color3.fromRGB(255, 147, 248),
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Ignis_Unsheath",
+        ["Lunge"] = "Ignis_Lunge",
+        ["Slash"] = "Ignis_Slash"
+    }
+}
+v1.Indra_Sakura = v24
+v1.BonesAndAshes = {
+    ["DisplayName"] = "Bones & Ashes",
+    ["Multiplier"] = 17.2,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 98955845646185
+}
+v1.Fire_Spirit = {
+    ["DisplayName"] = "Fire Spirit",
+    ["Multiplier"] = 62.8,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 138720384181760
+}
+v1.Volcanic_Emperor = {
+    ["DisplayName"] = "Volcanic Emperor",
+    ["Multiplier"] = 235.5,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 87148327636672
+}
+v1.Vitrium = {
+    ["DisplayName"] = "Vitrium",
+    ["Multiplier"] = 1330,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 99141598962416
+}
+local v25 = {
+    ["DisplayName"] = "Indra Ignivomus",
+    ["Multiplier"] = 3812,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 86006677039840,
+    ["Outline"] = Color3.fromRGB(245, 136, 84),
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Ignis_Unsheath",
+        ["Lunge"] = "Ignis_Lunge",
+        ["Slash"] = "Ignis_Slash"
+    }
+}
+v1.Indra_Ignivomus = v25
+v1.Cardboard_Star = {
+    ["DisplayName"] = "Cardboard Star",
+    ["Multiplier"] = 5723,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 101273675191149
+}
+v1.Play_With_Me = {
+    ["DisplayName"] = "Inflatable Sword",
+    ["Multiplier"] = 27.6,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 120572949623300
+}
+v1.Rubber_Duckie = {
+    ["DisplayName"] = "Rubber Duckie",
+    ["Multiplier"] = 1922,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 125320099651226
+}
+v1.Cardboard_Cutter = {
+    ["DisplayName"] = "Cardboard Cutter",
+    ["Multiplier"] = 56.4,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 129196327710682
+}
+v1.Rainbow_Lightblade = {
+    ["DisplayName"] = "Rainbow Bright Blade",
+    ["Multiplier"] = 912,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 97810844876682
+}
+v1.Green_Lightblade = {
+    ["DisplayName"] = "Green Bright Blade",
+    ["Multiplier"] = 395,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 95885277191855
+}
+v1.Red_Bright_Blade = {
+    ["DisplayName"] = "Red Bright Blade",
+    ["Multiplier"] = 1942,
+    ["Rarity"] = 16,
+    ["Tradeable"] = true,
+    ["Icon"] = 114967999912513
+}
+v1.Blue_Bright_Blade = {
+    ["DisplayName"] = "Blue Bright Blade",
+    ["Multiplier"] = 935.2,
+    ["Rarity"] = 16,
+    ["Tradeable"] = true,
+    ["Icon"] = 93402235409833
+}
+v1.Nox_Nubibus = {
+    ["DisplayName"] = "Nox Nubibus",
+    ["Multiplier"] = 8888,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 130601657599070
+}
+v1.Godly_Essence = {
+    ["DisplayName"] = "Godly Essence",
+    ["Multiplier"] = 2835,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 113357337036643
+}
+v1.Peasent_Smiter = {
+    ["DisplayName"] = "Peasent Smiter",
+    ["Multiplier"] = 54.4,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 133557722020396
+}
+v1.Zeus = {
+    ["DisplayName"] = "Zeus",
+    ["Multiplier"] = 187.4,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 134704617553086
+}
+v1.White_Space_Lord = {
+    ["DisplayName"] = "White Space Lord",
+    ["Multiplier"] = 454,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 73017039896131
+}
+v1.Heaven_Puzzle = {
+    ["DisplayName"] = "Heaven\'s Puzzle",
+    ["Multiplier"] = 987,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 138555028093683
+}
+v1.Ol_Lucy = {
+    ["DisplayName"] = "Ol Lucy",
+    ["Multiplier"] = 11242,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 115440981592373
+}
+v1.Sharpened_Sapphire = {
+    ["DisplayName"] = "Sharpened Saber",
+    ["Multiplier"] = 262.3,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 105166783484212
+}
+v1.Saw_Fish = {
+    ["DisplayName"] = "Saw Fish",
+    ["Multiplier"] = 62.3,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 88170501200937
+}
+v1.Time_Thief = {
+    ["DisplayName"] = "Time Thief",
+    ["Multiplier"] = 2940,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 86672397030342
+}
+v1.Bermuda_Emerald = {
+    ["DisplayName"] = "Emeralds of Bermuda",
+    ["Multiplier"] = 127.4,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 127483638556127
+}
+v1.Thorns_Of_Sea = {
+    ["DisplayName"] = "Thorns Of The Sea",
+    ["Multiplier"] = 1210,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 85748829323659
+}
+v1.Wheat = {
+    ["DisplayName"] = "Wheat",
+    ["Multiplier"] = 29.1,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 79773670109056
+}
+v1.Sickle = {
+    ["DisplayName"] = "Sickle",
+    ["Multiplier"] = 61.5,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 119601003263383
+}
+v1.Rusty_Hoe = {
+    ["DisplayName"] = "Rusty Hoe",
+    ["Multiplier"] = 212.6,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 73021808821800
+}
+v1.Pitch_Fork = {
+    ["DisplayName"] = "Pitch Fork",
+    ["Multiplier"] = 452.3,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 85502399305161
+}
+v1.Trowel = {
+    ["DisplayName"] = "Trowel",
+    ["Multiplier"] = 1410,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 114817775418979
+}
+v1.Steak = {
+    ["DisplayName"] = "Steak",
+    ["Multiplier"] = 3724,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 84087760353732
+}
+v1.Flower = {
+    ["DisplayName"] = "Flower",
+    ["Multiplier"] = 34.7,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 83135709421939
+}
+v1.Daisy = {
+    ["DisplayName"] = "Daisy",
+    ["Multiplier"] = 135,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 138732614134951
+}
+v1.Skyfall = {
+    ["DisplayName"] = "Skyfall",
+    ["Multiplier"] = 286,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 97359340201534
+}
+v1.Katarnation = {
+    ["DisplayName"] = "Katarnation",
+    ["Multiplier"] = 1844,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 91411262989029
+}
+v1.Rosevealth = {
+    ["DisplayName"] = "Rosevealth",
+    ["Multiplier"] = 8468,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 89328173067693
+}
+v1.Shattered_Pollen = {
+    ["DisplayName"] = "Shattered Pollen",
+    ["Multiplier"] = 13537,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 123546887153578
+}
+v1.Stalagmite = {
+    ["DisplayName"] = "Stalagmite",
+    ["Multiplier"] = 38.1,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 130177279799125
+}
+v1.Cave_Dweller = {
+    ["DisplayName"] = "Cave Dweller",
+    ["Multiplier"] = 314.6,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 90938460651531
+}
+v1.Heartsbane = {
+    ["DisplayName"] = "Heartsbane",
+    ["Multiplier"] = 2028,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 138796487911851
+}
+v1.Boulder_Splitter = {
+    ["DisplayName"] = "Boulder Splitter",
+    ["Multiplier"] = 9314,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 117966220026685
+}
+v1.Noctis = {
+    ["DisplayName"] = "Noctis",
+    ["Multiplier"] = 14890,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 70992619989032
+}
+v1.Comical = {
+    ["DisplayName"] = "Comically Large Sword",
+    ["Multiplier"] = 9696,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 127372185228673
+}
+v1.Horn_Seeker = {
+    ["DisplayName"] = "Horn Seeker",
+    ["Multiplier"] = 6777,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 104191217980795
+}
+v1.Icepick = {
+    ["DisplayName"] = "Icepick",
+    ["Multiplier"] = 151.2,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 125160800365786
+}
+v1.Frozen_Shark = {
+    ["DisplayName"] = "Frozen Shark",
+    ["Multiplier"] = 41.9,
+    ["Rarity"] = 2,
+    ["Tradeable"] = true,
+    ["Icon"] = 135867689598101
+}
+v1.Glacial_Edge = {
+    ["DisplayName"] = "Glacial Edge",
+    ["Multiplier"] = 3942,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 86467665689700
+}
+v1.Permafrost = {
+    ["DisplayName"] = "Permafrost",
+    ["Multiplier"] = 9231,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 100274983406862
+}
+v1.Jabby_Stick = {
+    ["DisplayName"] = "Jabby Stick",
+    ["Multiplier"] = 1800,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 126056799121836
+}
+v1.Avalanche = {
+    ["DisplayName"] = "Avalanche",
+    ["Multiplier"] = 346,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 107204689989586
+}
+v1.Igloo_Dweller = {
+    ["DisplayName"] = "Igloo Dweller",
+    ["Multiplier"] = 1895,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 71835262070803
+}
+v1.Frosted_Ashborn = {
+    ["DisplayName"] = "Frosted Ashborn",
+    ["Multiplier"] = 16379,
+    ["Rarity"] = 17,
+    ["Tradeable"] = true,
+    ["Icon"] = 121375450883519
+}
+v1.Spider_King = {
+    ["DisplayName"] = "Spider King",
+    ["Multiplier"] = 16267,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 99898000497684
+}
+v1.Legged_Lasher = {
+    ["DisplayName"] = "Legged Lasher",
+    ["Multiplier"] = 56.1,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 115480155756508
+}
+v1.Long_Claw = {
+    ["DisplayName"] = "Long Claw",
+    ["Multiplier"] = 380.6,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 131367889353196
+}
+v1.Skelly_Sword = {
+    ["DisplayName"] = "Skelly Sword",
+    ["Multiplier"] = 1634,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 130276962064957
+}
+v1.Oath_Keeper = {
+    ["DisplayName"] = "Oath Keeper",
+    ["Multiplier"] = 11270,
+    ["Rarity"] = 7,
+    ["Tradeable"] = true,
+    ["Icon"] = 89777855800061
+}
+v1.Widows_Wail = {
+    ["DisplayName"] = "Widows Wail",
+    ["Multiplier"] = 4547,
+    ["Rarity"] = 6,
+    ["Tradeable"] = true,
+    ["Icon"] = 111302509959388
+}
+v1.Dragons_Glass = {
+    ["DisplayName"] = "Dragons Glass",
+    ["Multiplier"] = 1147,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 99204136591299
+}
+v1.Swashbuckler = {
+    ["DisplayName"] = "Swashbuckler",
+    ["Multiplier"] = 829.4,
+    ["Rarity"] = 16,
+    ["Tradeable"] = true,
+    ["Icon"] = 99655894082617
+}
+v1.The_Crewmate = {
+    ["DisplayName"] = "The Crewmate",
+    ["Multiplier"] = 1360,
+    ["Rarity"] = 16,
+    ["Tradeable"] = true,
+    ["Icon"] = 76113691881686
+}
+v1.Iophobia = {
+    ["DisplayName"] = "Iophobia",
+    ["Multiplier"] = 7.5,
+    ["Rarity"] = 1,
+    ["Tradeable"] = true,
+    ["Icon"] = 138424927627132
+}
+v1.Captains_Saber = {
+    ["DisplayName"] = "Captain\'s Saber",
+    ["Multiplier"] = 18.4,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 132527098287928
+}
+local v26 = {
+    ["DisplayName"] = "Snapper",
+    ["Multiplier"] = 44.4,
+    ["Rarity"] = 4,
+    ["Tradeable"] = true,
+    ["Icon"] = 86060974493867,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Croco_Unsheath",
+        ["Lunge"] = "Croco_Bite",
+        ["Slash"] = ""
+    }
+}
+v1.Snapper = v26
+v1.Toxic_Spirit = {
+    ["DisplayName"] = "Toxic Spirit",
+    ["Multiplier"] = 97.6,
+    ["Rarity"] = 5,
+    ["Tradeable"] = true,
+    ["Icon"] = 129024595335995
+}
+local v27 = {
+    ["DisplayName"] = "Poisoned Star",
+    ["Multiplier"] = 430,
+    4,
+    ["Rarity"] = 8,
+    ["Tradeable"] = true,
+    ["Icon"] = 139080438550994,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Poisoned_Star = v27
+local v28 = {
+    ["DisplayName"] = "Party Snapper",
+    ["Multiplier"] = 153.4,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 98661908694806,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Party_Croco_Unsheath",
+        ["Lunge"] = "Croco_Bite",
+        ["Slash"] = ""
+    }
+}
+v1.Party_Snapper = v28
+v1.Octo_Blade = {
+    ["DisplayName"] = "Octo Blade",
+    ["Multiplier"] = 19.8,
+    ["Rarity"] = 3,
+    ["Tradeable"] = true,
+    ["Icon"] = 113386400759517
+}
+v1.Iaspis = {
+    ["DisplayName"] = "Iaspis",
+    ["Multiplier"] = 498.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 112316884796576
+}
+v1.Molaris = {
+    ["DisplayName"] = "Molaris",
+    ["Multiplier"] = 498.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 105716784071781
+}
+v1.Hell_Slayer = {
+    ["DisplayName"] = "Hell Slayer",
+    ["Multiplier"] = 1077,
+    ["Rarity"] = 12,
+    ["Tradeable"] = true,
+    ["Icon"] = 95164917615865
+}
+local v29 = {
+    ["DisplayName"] = "Leprechaun\'s Blade",
+    ["Multiplier"] = 77.7,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 71009607217156,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Leprechaun_Unsheath",
+        ["Lunge"] = "Leprechaun_Lunge",
+        ["Slash"] = "Leprechaun_Slash"
+    }
+}
+v1.Leprechaun = v29
+v1.Pink_Crystals = {
+    ["DisplayName"] = "Pink Crystals",
+    ["Multiplier"] = 62.3,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 82818491031287
+}
+v1.Ruby_Blade = {
+    ["DisplayName"] = "Ruby Blade",
+    ["Multiplier"] = 534.3,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 73769643058391
+}
+v1.Sapphire_Saber = {
+    ["DisplayName"] = "Sapphire Saber",
+    ["Multiplier"] = 153.4,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 140195919692038
+}
+v1.TEN_MILY = {
+    ["DisplayName"] = "10m Sword",
+    ["Multiplier"] = 2025,
+    ["Rarity"] = 20,
+    ["Tradeable"] = true,
+    ["Icon"] = 123329889301738
+}
+v1.Satans_Revenge = {
+    ["DisplayName"] = "Red Revenge",
+    ["Multiplier"] = 750,
+    ["Rarity"] = 12,
+    ["Tradeable"] = true,
+    ["Icon"] = 137898046200504
+}
+v1.Depths_Of_Hell = {
+    ["DisplayName"] = "Depths Of Hell",
+    ["Multiplier"] = 684,
+    ["Rarity"] = 13,
+    ["Tradeable"] = true,
+    ["Icon"] = 92864406659884
+}
+v1.Elucidator = {
+    ["DisplayName"] = "Elucidator",
+    ["Multiplier"] = 36.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 15380971563,
+    ["Outline"] = Color3.fromRGB(255, 255, 255)
+}
+v1.Venom_Hunter = {
+    ["DisplayName"] = "Venom Hunter",
+    ["Multiplier"] = 45.3,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 85264360393637
+}
+v1.Pink_Space_Lord = {
+    ["DisplayName"] = "Pink Space Lord",
+    ["Multiplier"] = 18.5,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 86857288728785
+}
+local v30 = {
+    ["DisplayName"] = "Rainbow Star",
+    ["Multiplier"] = 14677,
+    ["Rarity"] = 9,
+    ["Tradeable"] = false,
+    ["Icon"] = 122502939421933,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Rainbow_Star = v30
+v1.Golden_Scythe = {
+    ["DisplayName"] = "Golden Scythe",
+    ["Multiplier"] = 384.5,
+    ["Rarity"] = 9,
+    ["Tradeable"] = false,
+    ["Icon"] = 129579767637265
+}
+local v31 = {
+    ["DisplayName"] = "Gold Star",
+    ["Multiplier"] = 163.2,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 99288328156057,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Gold_Star = v31
+local v32 = {
+    ["DisplayName"] = "Red Star",
+    ["Multiplier"] = 57.5,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 74760930291489,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Red_Star = v32
+local v33 = {
+    ["DisplayName"] = "Blue Star",
+    ["Multiplier"] = 39.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 119312929682665,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Blue_Star = v33
+local v34 = {
+    ["DisplayName"] = "Pink Star",
+    ["Multiplier"] = 39.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 70725691991671,
+    ["CustomSounds"] = {
+        ["Unsheath"] = "Star_Unsheath",
+        ["Lunge"] = "Star_Lunge",
+        ["Slash"] = "Star_Slash"
+    }
+}
+v1.Pink_Star = v34
+v1.Basilac = {
+    ["DisplayName"] = "Basilac",
+    ["Multiplier"] = 95.4,
+    ["Rarity"] = 9,
+    ["Tradeable"] = true,
+    ["Icon"] = 16100650507
+}
+v1.Domestic = {
+    ["DisplayName"] = "Domestic",
+    ["Multiplier"] = 129.3,
+    ["Rarity"] = 9,
+    ["Tradeable"] = false,
+    ["Icon"] = 16040143757
+}
+v1.Sword_Exe = {
+    ["DisplayName"] = "Sword.exe",
+    ["Multiplier"] = 80.3,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 140420333517393
+}
+v1.Cracked_Relic = {
+    ["DisplayName"] = "Cracked Relic",
+    ["Multiplier"] = 256.5,
+    ["Rarity"] = 14,
+    ["Tradeable"] = true,
+    ["Icon"] = 80510905445570
+}
+v1.Wrapped_In_Chocolate = {
+    ["DisplayName"] = "Wrapped in chocolate",
+    ["Multiplier"] = 80.3,
+    ["Rarity"] = 14,
+    ["Tradeable"] = true,
+    ["Icon"] = 104009159270889
+}
+v1.Peepsicle = {
+    ["DisplayName"] = "Peepsicle",
+    ["Multiplier"] = 80.3,
+    ["Rarity"] = 14,
+    ["Tradeable"] = true,
+    ["Icon"] = 75645363358779
+}
+v1.Egg_Hunt_2025 = {
+    ["DisplayName"] = "Munch munch",
+    ["Multiplier"] = 80.3,
+    ["Rarity"] = 14,
+    ["Tradeable"] = true,
+    ["Icon"] = 117883022850696
+}
+v1.Divine_Shell = {
+    ["DisplayName"] = "Divine Shell",
+    ["Multiplier"] = 143,
+    ["Rarity"] = 14,
+    ["Tradeable"] = true,
+    ["Icon"] = 94349948159833
+}
+v1.Shattered_Ice = {
+    ["DisplayName"] = "Shattered Ice",
+    ["Multiplier"] = 27500,
+    ["Rarity"] = 17,
+    ["Tradeable"] = true,
+    ["Icon"] = 109634328699171
+}
+v1.Silver_Ashborn = {
+    ["DisplayName"] = "Silver Ashborn",
+    ["Multiplier"] = 1234,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 130003464070854
+}
+v1.Starlit_Ashborn = {
+    ["DisplayName"] = "Starlit Ashborn",
+    ["Multiplier"] = 777,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 113580672564127
+}
+v1.Midnight_Ashborn = {
+    ["DisplayName"] = "Midnight Ashborn",
+    ["Multiplier"] = 935,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 130241147371864
+}
+v1.Dark_Ashborn = {
+    ["DisplayName"] = "Dark Ashborn",
+    ["Multiplier"] = 2935,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 72353908771036
+}
+v1.Red_Ashborn = {
+    ["DisplayName"] = "Red Ashborn",
+    ["Multiplier"] = 1853,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 133668147694685
+}
+v1.Green_Envy = {
+    ["DisplayName"] = "Green Envy",
+    ["Multiplier"] = 895,
+    ["Rarity"] = 10,
+    ["Tradeable"] = true,
+    ["Icon"] = 97573901602755
+}
+local v35 = {
+    ["DisplayName"] = "kp2\'s Champion Axe",
+    ["Multiplier"] = 3000,
+    ["Rarity"] = 20,
+    ["Tradeable"] = true,
+    ["Icon"] = 95086846869114,
+    ["Event"] = {
+        ["Name"] = "TTT Season 1",
+        ["Color"] = ColorSequence.new(Color3.fromRGB(0, 245, 238), Color3.fromRGB(0, 191, 255))
+    }
+}
+v1.kp2_Champion_Axe = v35
+return v1
